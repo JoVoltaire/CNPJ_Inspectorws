@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/04/07 21:15:27.496,=D:\Embarcadero\Unit1.pas</Transaction>
+    <Transaction>2023/04/07 21:49:30.054,=D:\bibliotecasDelphi\superobject-master\superobject.pas</Transaction>
+    <Transaction>2023/04/07 21:53:36.334,=D:\bibliotecasDelphi\superobject-master\superdate.pas</Transaction>
+    <Transaction>2023/04/07 21:53:36.391,=D:\bibliotecasDelphi\superobject-master\supertimezone.pas</Transaction>
+    <Transaction>2023/04/07 21:53:36.423,=D:\bibliotecasDelphi\superobject-master\supertypes.pas</Transaction>
+    <Transaction>2023/04/07 21:53:36.460,=D:\bibliotecasDelphi\superobject-master\superxmlparser.pas</Transaction>
+    <Transaction>2023/04/07 21:58:26.500,=D:\bibliotecasDelphi\SuperObject.Delphi-master\Demos\MarshalSuper\uMarshalSuper.pas</Transaction>
+    <Transaction>2023/04/07 21:59:23.559,D:\bibliotecasDelphi\SuperObject.Delphi-master\Demos\MarshalSuper\uMarshalSuper.pas=</Transaction>
+    <Transaction>2023/04/07 23:43:30.142,D:\Embarcadero\CNPJ_Finder\unitCNPJ_Finder.dfm=D:\Embarcadero\Unit1.dfm</Transaction>
+    <Transaction>2023/04/07 23:43:30.142,D:\Embarcadero\CNPJ_Finder\unitCNPJ_Finder.pas=D:\Embarcadero\Unit1.pas</Transaction>
+    <Transaction>2023/04/07 23:43:46.367,D:\Embarcadero\CNPJ_Finder\prj_cnpj.dproj=D:\Embarcadero\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

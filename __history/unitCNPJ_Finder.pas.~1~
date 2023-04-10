@@ -1,0 +1,46 @@
+unit unitCNPJ_Finder;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, REST.Types, REST.Client,
+  Data.Bind.Components, Data.Bind.ObjectScope, Superobject;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    edtCnpj: TEdit;
+    Label2: TLabel;
+    edtRazs: TEdit;
+    Button1: TButton;
+    RESTClient1: TRESTClient;
+    RESTRequest1: TRESTRequest;
+    RESTResponse1: TRESTResponse;
+    Memo1: TMemo;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  jsonrs : ISuperObject;
+  razaoSoci : String;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+   edtIe.Clear;
+   RestClient1.BaseURL := 'https://publica.cnpj.ws/cnpj/' + edtCnpj.Text;
+   RestRequest1.Execute;
+   jsonrs := SO(RestRequest1.Response.JSONText);
+   Memo1.Lines.Add(RestRequest1.Response.JSONText);
+end;
+
+end.
